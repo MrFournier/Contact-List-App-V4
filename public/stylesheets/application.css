@@ -1,0 +1,22 @@
+.list{
+  display: block;
+}
+
+.contact{
+  margin: 10px;
+}
+
+.searchContainer{
+  display: block;
+  margin: 10px;
+}
+
+.new{
+  display: block;
+  margin: 10px;
+}
+
+.btn{
+  float: right;
+  margin: 2px;
+}
