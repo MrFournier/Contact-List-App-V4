@@ -1,1 +1,19 @@
-<h1>Home Page</h1>
+<div class="searchContainer">
+  <form>
+    <label for="query">Search Contacts</label>
+    <input type="search" id="query" name="query" required />
+  </form>
+</div>
+<h1>Contacts List</h1>
+<ol class="list">
+</ol>
+<div class="new">
+  <button class="newBtn">Add Contact</button>
+  <form action="/contact/new" method="post" class="createContact">
+    <label for="nameInput">Name: </label>
+    <input type="text" id="nameInput" required>
+    <label for="emailInput">Email: </label>
+    <input type="email" id="emailInput" required >
+    <button type="submit">Add</button>
+  </form>
+</div>
